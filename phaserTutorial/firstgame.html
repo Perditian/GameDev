@@ -65,7 +65,7 @@ function create() {
 	game.physics.arcade.enable(player);
 
 	//Plyer physics need numbers
-	player.body.bounce.y = 0.2;
+	player.body.bounce.y = 0; // bouncing annoys me
 	player.body.gravity.y = playerWeight;
 	player.body.collideWorldBounds = true;
 
